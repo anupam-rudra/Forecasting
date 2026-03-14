@@ -76,3 +76,79 @@ Model Evaluation
 Future Prediction
 
 
+---
+
+# Walmart Sales Forecasting Pipeline
+Data Collection
+↓
+Data Cleaning & Preprocessing
+↓
+Exploratory Data Analysis
+↓
+Feature Engineering
+↓
+Train/Test Split
+↓
+Model Training
+↓
+Forecasting
+↓
+Model Evaluation
+↓
+Future Sales Prediction
+
+
+
+---
+
+# Models Implemented
+
+## Time Series Models
+- ARIMA
+- SARIMA / SARIMAX
+- Auto ARIMA
+
+## Machine Learning Models
+- Random Forest Regressor
+- XGBoost Regressor
+
+---
+
+# Feature Engineering (Walmart Dataset)
+
+### Time Features
+- Month
+- Week
+- Year
+
+### Lag Features
+- Lag 1
+- Lag 2
+- Lag 3
+
+### Rolling Statistics
+- Rolling Mean
+- Rolling Standard Deviation
+
+### External Variables
+- Temperature
+- Fuel Price
+- CPI
+- Unemployment
+- Store Size
+- Holiday Indicator
+- Store Type
+
+---
+
+# Evaluation Metrics
+
+Model performance was evaluated using:
+
+- **MAE** – Mean Absolute Error
+- **RMSE** – Root Mean Squared Error
+- **MAPE** – Mean Absolute Percentage Error
+
+---
+
+
